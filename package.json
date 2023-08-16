@@ -1,0 +1,17 @@
+{
+    "name": "cypress_learning",
+    "version": "1.0.0",
+    "description": "",
+    "main": "cypress.config.js",
+    "scripts": {
+        "test": "node_modules\\.bin\\cyphress run",
+        "headTest": "npm run test-- --headed",
+        "chromeTest": "npm run test-- --browser chrome"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "cypress": "^12.9.0",
+        "cypress-iframe": "^1.0.1"
+    }
+}
